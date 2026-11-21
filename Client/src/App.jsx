@@ -1,24 +1,17 @@
-import React from 'react'
-/* 
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
-*/
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Home from './components/pages/home';
+import Login from './components/pages/login';
+import Signup from './components/pages/signup';
 
 function App() {
   return (
-    <div>
-      <h1>CTINASSL: Information Assurance & Security</h1>
-      <p>
-        Penabella, Luis Martin T.
-      </p>
-      <p>
-        Oronico, Joshua Miguel L.
-      </p>
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;

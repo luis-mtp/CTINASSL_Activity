@@ -1,0 +1,38 @@
+.footer {
+  background-color: #baf2a8;
+  padding: 36px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.footer-tagline {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #1b6b32;
+  margin-top: 4px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-socials a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #1b6b32;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+}

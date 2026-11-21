@@ -1,0 +1,272 @@
+/* HERO */
+.hero-section {
+  background-color: #f8fbf9;
+  padding: 70px 8% 90px;
+}
+
+.hero-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: #374151;
+  max-width: 400px;
+  margin-bottom: 32px;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.btn-primary {
+  background-color: #baf2a8;
+  color: #1b6b32;
+  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #a6ea91;
+}
+
+.btn-link {
+  color: #374151;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.hero-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-circle-bg {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background-color: #c6f6bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 85%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ABOUT */
+.about-section {
+  padding: 90px 8%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-header h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 2.2rem;
+  color: #1b6b32;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.about-header p {
+  max-width: 720px;
+  margin: 0 auto 56px;
+  color: #374151;
+  font-size: 0.98rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.info-card {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 44px 36px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #c6f6bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 1.4rem;
+}
+
+.info-card h3 {
+  color: #1b6b32;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.card-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.dot.teal { background-color: #2ec49c; }
+.dot.gray { background-color: #d1d5db; }
+.dot.navy { background-color: #1e3a5f; }
+
+.info-card p {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+/* CONTACT */
+.contact-section {
+  padding: 80px 8% 100px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.contact-info h2 {
+  color: #1b6b32;
+  font-size: 2.2rem;
+  margin-bottom: 14px;
+}
+
+.contact-info p {
+  color: #4b5563;
+  max-width: 380px;
+  margin-bottom: 36px;
+}
+
+.contact-details {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.contact-details li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.contact-badge {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #1b6b32;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: #f4f6f8;
+  font-family: inherit;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #2ec49c;
+  background-color: #ffffff;
+}
+
+.btn-submit {
+  background-color: #32c6a6;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: #28b092;
+}
+
+/* RESPONSIVE */
+@media (max-width: 850px) {
+  .hero-container,
+  .contact-container,
+  .cards-grid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-circle-bg {
+    width: 280px;
+    height: 280px;
+  }
+}
